@@ -476,3 +476,25 @@ label {
 	margin:0 0 -5px 0;
 	padding:0;
 }
+
+#footer i.fa {
+	color: #71bd46;
+	margin-right: 15px;
+	font-size: 15px;
+}
+
+#tecno-section {
+	padding: 40px 0;
+	background-color: #FFFFFF;
+}
+#tecno-section h4 {
+    border-bottom: 1px solid #b8dea2;
+    padding-bottom: 20px;
+    display: inline-block;
+    color: #000000;
+}
+#tecno-section p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #000000;
+}
