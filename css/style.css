@@ -168,19 +168,19 @@ header p {
 }
 /* About Section */
 #about-section {
-	padding: 40px 0;
-	background-color: #FFFFFF;
+    padding: 40px 0;
+    background-color: #f8fbf6;
 }
 #about-section h4 {
     border-bottom: 1px solid #b8dea2;
     padding-bottom: 20px;
     display: inline-block;
-    color: #000000;
+    color: #0b9e62;
 }
 #about-section p {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	color: #000000;
+	color: #0b9e62;
 }
 /* Team Section */
 #team-section {
@@ -211,7 +211,7 @@ img.team-img {
 /* Services Section */
 #services-section {
     padding: 100px 0;
-    background-color: beige;
+    background-color: white;
 }
 #services-section h4 {
 	border-bottom: 1px solid #b8dea2;
@@ -485,7 +485,7 @@ label {
 
 #tecno-section {
 	padding: 40px 0;
-	background-color: #FFFFFF;
+	background-color: #efefef;
 }
 #tecno-section h4 {
     border-bottom: 1px solid #b8dea2;
@@ -496,5 +496,50 @@ label {
 #tecno-section p {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	color: #000000;
+	color: #FFFFFF;
+}
+
+
+.destacados{
+    padding: 20px 0;
+	text-align: center;
+}
+.destacados > div > div{
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.2s;
+}
+.destacados > div:hover > div{
+	margin-top: -10px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+	background: rgba(200, 200, 200, 0.1);
+	transition: 0.5s;
+}
+#objetivo {
+    font-family: unset;
+    font-style: oblique;
+    font-size: 20px;
+    color: black;
+}
+
+#pay-section{
+	background-color: cadetblue;
+}
+
+#pay-section h1 {
+    font-family: unset;
+    color: aliceblue;
+    text-align: center;
+}
+
+#book-section{
+	background-color: #dff0d8;
+}
+
+#book-section h1{
+    font-family: unset;
+    color: #0b2035ad;
+    text-align: center;
 }
