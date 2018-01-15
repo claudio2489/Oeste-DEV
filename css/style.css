@@ -538,8 +538,9 @@ label {
 	background-color: #dff0d8;
 }
 
-#book-section h1{
+#book-section h1 {
     font-family: unset;
     color: #0b2035ad;
     text-align: center;
+    font-size: 20px;
 }
