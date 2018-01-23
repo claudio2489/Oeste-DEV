@@ -1135,6 +1135,7 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+  margin-bottom: 10px
 }
 hr {
   margin-top: 20px;
@@ -1258,7 +1259,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 h3,
 .h3 {
